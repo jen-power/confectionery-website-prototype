@@ -35,7 +35,7 @@ img {
 }
 
 .header-img {
-  max-height: 400px;
+  max-height: 300px;
   overflow: hidden;
   width: 100%;
 }
@@ -85,8 +85,10 @@ section {
 
   .header-nav li {
     display: inline-block;
+  }
+
+  .header-nav-list {
     text-align: center;
-    <!–– Navigation list is not centering as screen gets larger ––!>
   }
 
 }
