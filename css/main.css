@@ -84,6 +84,35 @@ h3 {
   color: #3e1422;
 }
 
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  background-color: rgba(255,255,255,.5)
+}
+  /*When I add padding or margins the white box disappears*/
+
+figure {
+  position: relative;
+}
+
+.card {
+  border: 3px solid #3e1422;
+}
+
+.contact {
+  text-decoration: none;
+  color: #b18278;
+  font-weight: bold;
+}
+
+.secondary-text a:hover {
+  color: #3e1422;
+  text-decoration: underline;
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -141,6 +170,17 @@ footer a {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  .three-images {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  figure {
+    margin: 0;
+    width: 30%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
