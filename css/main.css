@@ -90,7 +90,8 @@ figcaption {
   left: 0;
   width: 100%;
   font-weight: bold;
-  background-color: rgba(255,255,255,.5)
+  background-color: rgba(255,255,255,.5);
+  padding: .5em;
 }
   /*When I add padding or margins the white box disappears*/
 
@@ -106,6 +107,7 @@ figure {
   color: #000;
   text-decoration: none;
 }
+  /*Link hover works when on margin and not the image*/
 
 .contact {
   text-decoration: none;
@@ -190,11 +192,11 @@ footer a {
 
   figure {
     margin: 0;
-    width: 30%;
+    width: 90%;
+    justify-content: space-around;
   }
 
   /*Figure has large right margin even though margin is set to 0
-  How do I get the figure captions to sit at the bottom of each image?
   How do I scale each image to be the same height?*/
 
   footer {
