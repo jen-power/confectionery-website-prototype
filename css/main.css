@@ -40,7 +40,7 @@ img {
   width: 100%;
 }
 
-h1 {
+header h1 {
   font-family: Pacifico, cursive;
   color: #3e1422;
   font-size: 2rem;
@@ -54,7 +54,7 @@ nav ul {
   list-style-type: none;
 }
 
-nav li {
+header li {
   text-align: left;
 }
 
@@ -62,7 +62,7 @@ nav li {
   font-size: 1.25rem;
 }
 
-.header-nav a {
+header nav a {
   display: block;
   padding: .3em .25em;
   color: #000;
