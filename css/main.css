@@ -149,6 +149,7 @@ footer a {
 .copyright {
   width: 100%;
   margin-top: 1rem;
+  color: #3e1422;
 }
 
 
@@ -181,6 +182,16 @@ footer a {
     width: 30%;
   }
 
+  /*How do I get the figure captions to sit at the bottom of each image? How do I scale each image to be the same height?*/
+
+  footer {
+    justify-content: space-around;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -204,12 +215,22 @@ footer a {
     padding: .3em .7em;
 }
 
+section {
+  padding: 0 2em;
+}
 
+.three-images {
+  margin: 3rem 0;
+}
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  section {
+    padding: 0 4em;
   }
 
 }
