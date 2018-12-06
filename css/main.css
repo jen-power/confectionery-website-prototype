@@ -21,10 +21,9 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-family: Pacifico, cursive;
-  font-size: 3rem;
-  margin-top: 0;
+header,
+footer {
+  background-color: #b18278;
 }
 
 img {
@@ -39,4 +38,37 @@ img {
   max-height: 400px;
   overflow: hidden;
   width: 100%;
+}
+
+h1 {
+  font-family: Pacifico, cursive;
+  color: #3e1422;
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  text-align: left;
+}
+
+.header-nav-list {
+  font-size: 1.25rem;
+}
+
+.header-nav a {
+  display: block;
+  padding: .3em .75em;
+  color: #333;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  background-color: #3e1422;
+  color: #b18278;
 }
