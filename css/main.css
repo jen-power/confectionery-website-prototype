@@ -35,7 +35,7 @@ img {
 }
 
 .header-img {
-  max-height: 300px;
+  height: 200px;
   overflow: hidden;
   width: 100%;
 }
@@ -106,7 +106,6 @@ figure {
   color: #000;
   text-decoration: none;
 }
-  /*Link hover works when on margin and not the image*/
 
 .contact {
   text-decoration: none;
@@ -178,6 +177,10 @@ footer a {
     line-height: 1.4;
   }
 
+  .header-img {
+    height: 300px;
+  }
+
   section {
     max-width: 50em;
     margin: auto;
@@ -191,13 +194,13 @@ footer a {
 
   figure {
     margin: 0;
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
   }
 
-  /*Figure has large right margin even though margin is set to 0
-  How do I scale each image to be the same height?
-  All three images are flush left, not centered*/
+  .card-link {
+    margin: 0 1em;
+  }
 
   footer {
     justify-content: space-around;
