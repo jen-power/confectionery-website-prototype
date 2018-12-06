@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 sans-serif;
+  font: normal 100%/1.3 Georgia, sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,4 +19,24 @@ html {
 
 body {
   margin: 0;
+}
+
+h1 {
+  font-family: Pacifico, cursive;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.img-flex {
+  display: block;
+}
+
+.header-img {
+  max-height: 400px;
+  overflow: hidden;
+  width: 100%;
 }
