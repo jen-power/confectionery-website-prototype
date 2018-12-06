@@ -93,7 +93,6 @@ figcaption {
   background-color: rgba(255,255,255,.5);
   padding: .5em;
 }
-  /*When I add padding or margins the white box disappears*/
 
 figure {
   position: relative;
@@ -197,7 +196,8 @@ footer a {
   }
 
   /*Figure has large right margin even though margin is set to 0
-  How do I scale each image to be the same height?*/
+  How do I scale each image to be the same height?
+  All three images are flush left, not centered*/
 
   footer {
     justify-content: space-around;
