@@ -32,6 +32,7 @@ img {
 
 .img-flex {
   display: block;
+  width: 100%;
 }
 
 .header-img {
@@ -91,7 +92,7 @@ figcaption {
   width: 100%;
   color: #3e1422;
   font-weight: bold;
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255, 255, 255, .6);
   padding: .5em;
 }
 
@@ -178,7 +179,7 @@ footer ul {
 
 footer a {
   color: #000;
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
 
 .social {
@@ -195,7 +196,6 @@ footer a {
   margin-top: 1rem;
   color: #3e1422;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -270,10 +270,12 @@ footer a {
 
   .header-nav a {
     padding: .3em .7em;
-}
+  }
 
-.three-images {
-  margin: 3rem 0;
+  .three-images {
+    margin: 3rem 0;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
