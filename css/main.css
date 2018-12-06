@@ -45,6 +45,7 @@ h1 {
   color: #3e1422;
   font-size: 2rem;
   margin: 0;
+  text-align: center;
 }
 
 nav ul {
@@ -63,7 +64,7 @@ nav li {
 
 .header-nav a {
   display: block;
-  padding: .3em .75em;
+  padding: .3em .25em;
   color: #333;
   text-decoration: none;
 }
@@ -71,4 +72,60 @@ nav li {
 .header-nav a:hover {
   background-color: #3e1422;
   color: #b18278;
+}
+
+section {
+  text-align: center;
+  margin: 0 1rem;
+}
+
+
+
+@media only screen and (min-width: 25em) {
+
+  .header-nav li {
+    display: inline-block;
+    text-align: center;
+    <!–– Navigation list is not centering as screen gets larger ––!>
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin: 0 1.5rem;
+  }
+
+  .header-nav a {
+    padding: .3em .7em;
+}
+
+
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
