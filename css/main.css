@@ -102,6 +102,11 @@ figure {
   border: 3px solid #3e1422;
 }
 
+.card-link {
+  color: #000;
+  text-decoration: none;
+}
+
 .contact {
   text-decoration: none;
   color: #b18278;
@@ -182,7 +187,9 @@ footer a {
     width: 30%;
   }
 
-  /*How do I get the figure captions to sit at the bottom of each image? How do I scale each image to be the same height?*/
+  /*Figure has large right margin even though margin is set to 0
+  How do I get the figure captions to sit at the bottom of each image?
+  How do I scale each image to be the same height?*/
 
   footer {
     justify-content: space-around;
