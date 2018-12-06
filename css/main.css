@@ -177,6 +177,12 @@ footer a {
     line-height: 1.4;
   }
 
+  section {
+    max-width: 50em;
+    margin: auto;
+    padding: 0 2em;
+  }
+
   .three-images {
     display: flex;
     justify-content: space-between;
@@ -220,10 +226,6 @@ footer a {
 
   .header-nav a {
     padding: .3em .7em;
-}
-
-section {
-  padding: 0 2em;
 }
 
 .three-images {
